@@ -1,0 +1,78 @@
+@font-face {
+   /* font-family:'BombDaGone' ;
+    src:url('font/BombDaGonePERSONALUSEONLY.otf');*/
+
+    font-family:'Graffiti' ;
+    src:url('font/aAttackGraffiti.otf');
+}
+article{
+    width:100%;
+    border:black solid 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("df7fa2ec5e349bc220dfdcc11c20f048.jpg");
+}
+.side{
+    width:50%;
+   padding: 2%;
+    border-right:black solid 5px;
+
+
+
+}
+blockquote{
+    font-weight: bolder;
+    font-family: Andalus Century sans-serif;
+    font-style: italic;
+}
+h3{
+    font-family: Dubai;
+    font-size: 80px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+#grafitti{
+    font-family: 'Graffiti';
+}
+#slider {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+.gallery h3{
+    margin-right:55% ;
+    padding-left:20px;
+    text-align:left;
+    background-image: url("81279590-vintage-graffiti-background-on-old-house-in-minsk-belarus-drawn-by-hand-on-plastered-brick-wall-abst.jpg");
+}
+
